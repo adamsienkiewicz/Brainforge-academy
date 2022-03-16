@@ -1,0 +1,154 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: black;
+}
+
+.card {
+  position: relative;
+  width: 640px;
+  height: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.logo {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.logoText {
+  padding-top: 10px;
+  margin: 0;
+  font-size: 15px;
+  line-height: 15px;
+  color: #1e40af;
+}
+.secondLogoText {
+  margin: 0;
+  font-size: 13px;
+  line-height: 13px;
+  color: #65676b;
+}
+
+.logoImage {
+  width: 40px;
+  height: 40px;
+  padding-right: 11px;
+}
+
+.logoTextWrapper {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  width: 85px;
+}
+
+.logoDots {
+  position: absolute;
+  top: 43px;
+  right: 20px;
+}
+
+.primaryText {
+  margin: 0;
+  padding: 0 20px;
+  padding-bottom: 10px;
+}
+
+.tagWrapper span,
+a {
+  color: #395996;
+  font-size: 15px;
+}
+
+.tagWrapper span {
+  padding-bottom: 8px;
+}
+
+.tagWrapper {
+  padding: 0 20px 10px 20px;
+}
+
+.tagWrapper a {
+  display: block;
+}
+
+.mainImage {
+    font-size: 0;
+
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 20px;
+  background-color: #f2f3f5;
+  border: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.navTextPimary {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #606770;
+}
+
+.navTextSecondary {
+  margin: 0;
+  font-size: 17px;
+  line-height: 23px;
+  color: #1d2129;
+}
+
+.button {
+  padding: 8px 32px 9px 26px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 15px;
+  font-style: normal;
+  border: 2px solid #bec3c9;
+  border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #DEDEDE;;
+}
+
+.likeCommentShare {
+    padding: 15px 20px 28px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.footerButton {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+}
+
+.footerButton img {
+    padding-right: 15px;
+}
+
+.footerButton:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
