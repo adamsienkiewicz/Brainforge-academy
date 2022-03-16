@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex;
+    background-color: rgb(188, 188, 190);
+    flex-direction: row;
+    width: auto;
+    height: 250px;
+    position: relative;
+    justify-content: space-around;
+}
+
+
+.p1 {
+    text-align: center;    
+}
+
+.software {
+    font-weight: bold;
+}
