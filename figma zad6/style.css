@@ -11,12 +11,12 @@ body {
   background-color: black;
 }
 
-.card {
-  position: relative;
-  width: 640px;
-  height: 800px;
-  background-color: #ffffff;
-  border-radius: 12px;
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: black;
 }
 
 .logo {

@@ -1,0 +1,133 @@
+.card {
+    display: flex;
+    position: relative;
+    width: 1917px; 
+    height: 1400px;
+    background-color: #FFFFFF;
+
+  }
+
+  .text1 {
+      position: relative; 
+      top: 64px;
+      left: 72px;
+  }
+
+  #menu1 {
+      position: absolute; 
+      right: 508px;
+      top: 66px;
+      width: 97px;
+      height: 29px;
+  }
+
+  #line {
+      position: absolute;
+      left: 1312px;
+      top: 96px;
+      width: 97px;
+      height: 3px;
+  }
+
+  #menu2 {
+    position: absolute; 
+    right: 355px;
+    top: 66px;
+    width: 129px;
+    height: 29px;
+  }
+  
+  #menu3 {
+    position: absolute; right: 216px;
+    top: 66px;
+    width: 115px;
+    height: 29px;
+  }
+
+  #settings {
+      position: absolute;
+      right: 125px;
+      top: 68px;
+      width: 32px;
+      height: 32px;
+  }
+  
+  #user {
+      position: absolute;
+      right: 73px;
+      top: 70px;
+      width: 24px;
+      height: 28px;
+  }
+
+  #curatedForYou {
+      position: absolute;
+      left: 72px;
+      top: 202px;
+  }
+
+  .galery {
+      display: flex;
+      justify-content: space-between;
+      width: 1917px;
+  }
+
+  #photo1 {
+    position: absolute;
+    width: 420px;
+    height: 560px;
+    left: 72px;
+    top: 253px;
+  }
+
+  #photo2 {
+    position: absolute;
+    width: 420px;
+    height: 315px;
+    left: 524px;
+    top: 253px;
+  }
+
+  #photo3 {
+    position: absolute;
+    width: 872px;
+    height: 490px;
+    right: 69px;
+    top: 253px;
+  }
+
+  #photo4 {
+    position: absolute;
+    width: 420px;
+    height: 315px;
+    left: 72px;
+    top: 845px;
+  }
+
+  #photo5 {
+    position: absolute;
+    width: 420px;
+    height: 560px;
+    left: 524px;
+    top: 600px;
+  }
+
+  #photo6 {
+    position: absolute;
+    width: 420px;
+    height: 315px;
+    left: 976px;
+    top: 775px;
+  }
+
+  #photo7 {
+    position: absolute;
+    width: 420px;
+    height: 560px;
+    left: 1428px;
+    top: 775px;
+  }
+
+  .menu:hover {
+      text-decoration: line-through;
+  }

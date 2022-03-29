@@ -1,0 +1,43 @@
+body {
+    background-color: #e5e5e5;
+}
+.profile {
+    width: 375px;
+    height: 812px;
+    display: flex;
+}
+
+#mainPic {
+    height: 165px;
+    width: 390px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background: #26262866;
+}
+
+.borderContainer {
+    width: 375px;
+    height: 700px;
+    background-color: #ffffff;
+    padding: 7px, 119px, 8px, 654px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 12px 12px 0px 0px;
+    
+}
+
+#photo {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    margin: 135px, 52px, 647px, 135px;
+    
+}
+
+#circle {
+    width: 105px;
+    height: 105px;
+}
