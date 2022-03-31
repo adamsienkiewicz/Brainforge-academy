@@ -17,31 +17,32 @@
       position: absolute; 
       right: 508px;
       top: 66px;
-      width: 97px;
-      height: 29px;
+      font-size: 28px;
+      color: #555454;
   }
 
-  #line {
-      position: absolute;
-      left: 1312px;
-      top: 96px;
-      width: 97px;
-      height: 3px;
+  hr {
+    position: absolute;
+    top: 99px;
+    left: 1312px;
+    width: 97px;
+    height: 3px;
+    background-color: #363636;
   }
 
   #menu2 {
     position: absolute; 
     right: 355px;
     top: 66px;
-    width: 129px;
-    height: 29px;
+    font-size: 28px;
+    color: #555454;
   }
   
   #menu3 {
     position: absolute; right: 216px;
     top: 66px;
-    width: 115px;
-    height: 29px;
+    font-size: 28px;
+    color: #555454;
   }
 
   #settings {
@@ -128,6 +129,21 @@
     top: 775px;
   }
 
-  .menu:hover {
-      text-decoration: line-through;
+  #menu1:hover {
+    text-decoration: underline 7px;
+    text-decoration-color: aqua;
+  }
+
+  #menu2:hover {
+    text-decoration: underline 7px;
+    text-decoration-color: aqua;
+  }
+
+  #menu3:hover {
+    text-decoration: underline 7px;
+    text-decoration-color: aqua ;
+  }
+
+  hr:hover {
+    background-color: aqua;
   }
