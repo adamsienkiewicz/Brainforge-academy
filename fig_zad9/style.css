@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #F1EAE4;
+    max-width: 1440px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 {
+    align-items: flex-start;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#picture1 {
+    width: 720px;
+    height: 800px;
+    margin-left: 0;
+    margin-top: 100px;
+}
+
+.text1 {
+    text-align: center;
+    align-items: center;
+    margin-left: 95px;
+}
+
+#star {
+    /* text-align: center; */
+    width: 48px;
+    height: 48;
+    margin-top: 297px;
+}
+
+#newWeek {
+    margin-top: 371px;
+    font-size: 63px;
+}
+
+#shopNow {
+    text-align: center;
+    margin-top: 556px
+    ;
+}
+.section2 {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+#ourFavorities {
+    font-size: 50px;
+    margin-left: 66px;
+    margin-top: 144px;
+}
+
+#seeAll {
+    font-size: 20px;
+    /* margin-left: 1280px; */
+}
+
+#picture2 {
+    width: 422px;
+    height: 524px;
+    left: 67px;
+    top: 1200px;
+}
