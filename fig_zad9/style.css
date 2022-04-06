@@ -1,8 +1,8 @@
 .container {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
     background: #F1EAE4;
     max-width: 1440px;
 }
@@ -10,19 +10,39 @@
 .header {
     display: flex;
     justify-content: space-around;
+    padding: 25px;
+}
+
+#shopNow {
+    font-size: 17px;
+}
+
+#lookBook {
+    font-size: 17px;
+}
+
+#felis {
+    font-size: 53px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#search {
+    font-size: 17px;
+    margin: 30px;
 }
 
 .section1 {
     align-items: flex-start;
     display: flex;
-    /* justify-content: space-between; */
+    width: 100%;
 }
 
 #picture1 {
     width: 720px;
     height: 800px;
     margin-left: 0;
-    margin-top: 100px;
+    margin-top: 17px;
 }
 
 .text1 {
@@ -31,43 +51,111 @@
     margin-left: 95px;
 }
 
-#star {
-    /* text-align: center; */
+img#star {
+    padding: 26px;
     width: 48px;
-    height: 48;
+    height: 48px;
     margin-top: 297px;
 }
 
 #newWeek {
-    margin-top: 371px;
+    width: 531px;
+    height: 157px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 95px; */
     font-size: 63px;
 }
 
 #shopNow {
-    text-align: center;
-    margin-top: 556px
+    /* text-align: center; */
+    padding: 38px;
+    margin-top: 38
     ;
+    
 }
 .section2 {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-between;
     align-items: center;
+    padding-left: 66px;
+    padding-top: 144px;
+    padding-right: 64px;
 }
 
 #ourFavorities {
     font-size: 50px;
-    margin-left: 66px;
-    margin-top: 144px;
+    margin-left: 10px;
+    /* margin-top: 144px; */
+    
+    align-content: center;
 }
 
 #seeAll {
     font-size: 20px;
-    /* margin-left: 1280px; */
+    padding-top: 539px;
+    align-content: center;
 }
 
-#picture2 {
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 67px;
+    padding-top: 71px;
+    padding-right: 66px;
+}
+
+#picture2 #picture3 {
+    /* padding: 144px; */
     width: 422px;
-    height: 524px;
-    left: 67px;
-    top: 1200px;
+    height: 524px; 
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 66px;
+    padding-top: 22px;
+    padding-right: 410px;
+}
+
+.section5 {
+    display: flex;
+    /* justify-content: center; */
+    padding-right: 438px;
+    padding-left: 438px;
+    padding-top: 15px;
+}    
+
+.section6 {
+    display: flex;
+    padding-left: 509px;
+    padding-top: 22px;
+}
+
+.section7 {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#picture5 {
+    padding-left: 66px;
+    padding-top: 142px;
+    width: 332px;
+    height: 463px;
+}
+
+#jeliwery {
+    text-align: center;
+    padding-left: 111px;
+    padding-top: 245px;
+    font-size: 56px;
+}
+
+#picture6 {
+    padding-left: 111px;
+    padding-top: 413px;
+    padding-right: 66px;
 }
