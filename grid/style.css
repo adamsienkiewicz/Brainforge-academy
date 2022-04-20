@@ -1,0 +1,78 @@
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 102px 968px;
+}
+
+.sideBarMenu {
+    height: 1198px;
+    background: #FFFFFF;
+    grid-column: 1/2;
+    grid-row: 1;
+}
+.firstIcon {
+    display: flex;
+    justify-items: center;
+}
+
+#hexa {
+    width: 30px;
+    height: 33px;
+    padding-left: 36px;
+    padding-top: 39px;
+}
+#circle {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    padding-left: 46px;
+    padding-top: 50px;
+}
+
+.secondIcon {
+    display: flex;
+}
+#rectangle32 {
+    width: 46px;
+    height: 46px;
+    padding-left: 28px;
+    padding-top: 56px;
+}
+#rectangle14 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    padding-left: 41px;
+    padding-top: 69px;
+}
+#key {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    padding-left: 45px;
+    padding-top: 73px;
+}
+#dot {
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 76px;
+}
+
+#rectangle12 {
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 30px;
+    width: 21px;
+    height: 21px;
+}
+#rectangle10 {
+    position: absolute;
+    padding-left: 44px;
+    padding-top: 34px;
+    width: 13px;
+    height: 13px;
+}
+#vector1 {
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 39px;
+}

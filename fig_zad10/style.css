@@ -1,0 +1,132 @@
+html {
+    background: #FAFBFF;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashBoard {
+    display: flex;
+    width: 102px;
+}
+.sideMenu {
+    display: flex;
+    width: 102px;
+    height: 1198px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+}
+
+.hexa {
+    position: absolute;
+    padding-left: 36px;
+    padding-top: 39px;
+    padding-right: 35px;
+    width: 30px;
+    height: 33px;
+}
+
+.circle {
+    position: relative;
+    padding-left: 45px;
+    padding-top: 44px;
+    padding-right: 44px;
+}
+
+.rectangle32 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    padding-left: 28px;
+    padding-top: 128px;
+    padding-right: 28px;
+}
+
+.rectangle14 {
+    position: absolute;
+    /* border: 1.5px solid #FFFFFF; */
+    width: 20px;
+    height: 20px;
+    padding-left: 41px;
+    padding-top: 141px;
+    padding-right: 41px;
+}
+
+.key {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    padding-left: 45px;
+    padding-top: 142px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 41px;
+    width: 1440px;
+    height: 100px;
+}
+
+.headerText span {
+    position: absolute;
+    padding-left: 275px;
+    padding-top: 41px;
+    font-size: 24px;
+}
+
+.rectangle31 {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    border-radius: 12px;
+    width: 216px;
+    height: 38px;
+    left: 576px;
+    top: 40px;
+}
+
+.vector {
+    position: absolute;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+
+.vectorLine {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+
+.search {
+    position: absolute;
+    /* align-items: center; */
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 49px;
+    height: 21px;
+}
+
+.firstSection {
+    display: flex;
+    padding-top: 101px;
+    padding-left: 377px;
+    padding-top: 120px;
+}
+
+.rectangle15 {
+    /* position: absolute; */
+    padding-left: 377px;
+    padding-top: 120px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 968px;
+    height: 151px;
+}
