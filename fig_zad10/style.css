@@ -8,8 +8,9 @@ html {
 
 body {
     display: flex;
+    justify-content: space-between;
     font-family: 'Poppins', sans-serif;
-}
+    }
 
 .dashBoard {
     display: flex;
@@ -104,13 +105,19 @@ body {
     padding-top: 599px;
 }
 .rightSection {
+    max-width: 968px;
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 95px;
     /* display: flex; */
     /* flex-direction: column; */
 }
 
 .header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
+    height: 38px;
+    margin-bottom: 24px;
     /* padding-top: 41px; */
     /* width: 1440px; */
     /* height: 100px; */
@@ -118,9 +125,7 @@ body {
 
 
 .headerText {
-    padding-left: 275px;
-    padding-top: 41px;
-    width: 176px;
+    width: 180px;
     height: 36px;
 }
 
@@ -129,63 +134,181 @@ body {
     line-height: 36px;
 }
 
+.mainBox {
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    border-radius: 30px;
+}
+
 .rectangleSearch1 {
     display: flex;
-    margin-top: 40px;
-    margin-right: 95px;
     width: 216px;
     height: 38px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
     border-radius: 12px;
 }
 
 .rectangleFirst {
     display: flex;
-    justify-content: space-around;
-    margin-top: 24px;
-    margin-left: 275px;
-    width: 968px;
-    height: 151px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
-    border-radius: 30px;
+    justify-content: space-between;
+    padding: 32px 65px;
+    flex-wrap: wrap;
+    min-width: 300px;
 }
 
 .rectangleGroup {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 378px;
     margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.overviewWrapper {
+    margin-left: 38px;
+    margin-top: 27px;
+}
+
+.overView {
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.monthlyEarning {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #ACACAC;
+
+}
+
+.headWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .rectangleSecond {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     width: 628px;
-    height: 378px;
-    margin-left: 275px;
     background: #FFFFFF;
     box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
     border-radius: 30px;
+    flex-wrap: wrap;
+    min-width: 300px;
 }
+
+.quartelyRecrangle {
+    display: flex;
+    width: 118px;
+    height: 38px;
+    margin-top: 27px;
+    margin-right: 37px;
+    background-color: #F9FBFF;
+    border-radius: 10px;
+}
+
+.quartelyText {
+    margin-left: 16px;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #7E7E7E;
+}
+
+.chevron {
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+
+.graphWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 207px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.graph8 {
+    width: 40px;
+    height: 207px;
+    background-color: #5932EA;
+    border-radius: 8px;
+}
+
+.monthSection {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 47px;
+    padding-right: 47px;
+    /* column-gap: 16px; */
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: -0.01em;
+    color: #4F4F4F;
+}
+
 
 .rectangleThird {
     display: flex;
-    justify-content: space-around;
-    width: 304px;
-    height: 378px;
-    margin-right: 95px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
-    border-radius: 30px;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    width: 307px;
+    
 }
 
-.group7, .group8, .group9 {
-    margin-top: 31px;
+.customerWrapper {
+    display: flex;
+    flex-direction: column;
 }
 
-.line1 {
-    margin-top: 31px;
+.customer {
+    font-size: 22px;
+    line-height: 33px;
+    margin-left: 38px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.customerBuy {
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 38px;
+    letter-spacing: -0.01em;
+    color: #ACACAC;
+}
+
+.element1 {
+    position: absolute;
+    margin-left: 131px;
+    margin-top: 36px;
+    margin-bottom: 130px;
+}
+
+.element2 {
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.element3 {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 48px;
+}
+
+.element4 {
+    position: absolute;
+    margin-left: 102px;
+    margin-top: 108px;
 }
 
 .secondSection {
@@ -193,16 +316,10 @@ body {
 }
 
 .rectangle30 {
-    width: 968px;
     height: 472px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
-    border-radius: 30px;
-    margin-top: 28px; 
-    margin-right: 98px;
-    margin-left: 275px;
-    margin-bottom: 40px;
-}
+    }
+  
+    
 
 .productSellWrapper {
     display: flex;
@@ -233,7 +350,7 @@ body {
     width: 24px;
     height: 24px;
     margin-left: 8px;
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
 
 
@@ -452,3 +569,10 @@ body {
     color: #9197B3;
     letter-spacing: -0.01em;
  }
+
+ @media screen and (max-width: 600px) {
+    .text1 {
+      font-size: 10px;
+      /* width: 100%; */
+    }
+  }
