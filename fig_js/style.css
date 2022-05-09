@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F2F2F2;
+}
+
+.menuList {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+    
+li {
+    float: left;
+    padding: 37px;
+}
+
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.menuIcon {
+    width: 40px;
+    height: 43px;
+}
+
+.headTextWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 42px;
+}
+
+.primaryText {
+    font-family: 'Dancing Script';
+    font-size: 54px;
+    line-height: 65px;
+}
+
+.secondaryText {
+    font-family: 'Amatic SC';
+    font-size: 45px;
+    line-height: 57px;
+    padding-top: 14px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+    padding-top: 42px;
+}
+
+.secondMenu {
+    display: flex;
+    justify-content: center;
+    /* height: 60px; */
+}
+
+.secondMenu ul li {
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    padding-top: 13px;
+}
+
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 961px;
+    padding-left: 36px;
+    padding-right: 37px;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 50px;
+    font-family: 'Dancing Script';
+    padding-top: 73px;
+    height: 444px;
+    background-color: #F8F8F8;
+    opacity: 0.8;
+}
+
+.smallText {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 146px;
+}
+
+.mainArticle {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 952px;
+    font-size: 54px;
+    flex-direction: column;
+    /* padding-top: 74px; */
+    align-items: center;
+    font-family: 'Dancing Script';
+    background-color: #F8F8F8;
+    opacity: 0.8;
+}
+
+.mainArticleText {
+    font-size: 30px;
+    font-family: 'Amatic SC';
+}
+
+.tagsWrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Dancing Script';
+    align-items: center;
+    width: 50%;
+    height: 444px;
+    background-color: #F8F8F8;
+    opacity: 0.8;
+}
+
+.tags {
+    font-size: 54px;
+}
+
+.tagsText {
+    font-size: 30px;
+}
+
+.blogs {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 54px;
+    font-family: 'Dancing Script';
+    padding-top: 60px;
+}
+
+.pictureSection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 44px;
+}
+
+.picture1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.productivity {
+    font-size: 18px;
+    padding-top: 19px;
+    font-family: 'Amatic SC';
+    line-height: 23px;
+    color: #000000;
+}
+
+.dailyText {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Dancing Script';
+    padding-top: 5px;
+
+}
+
+.infoText {
+    width: 293px;
+    padding-top: 13px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto';
+}
+
+.buttonWrapper {
+    padding-top: 20px;
+}
+
+.button {
+    width: 72px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: 'Dancing Script';
+}
+
+.newsletterWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 109px;
+    /* width: 1188px; */
+    height: 311px;
+    /* background-color: #F0ECEC; */
+}
+
+.newsletter {
+    font-size: 54px;
+    font-family: 'Dancing Script';
+    line-height: 65px;
+}
+
+input {
+    width: 496px;
+    height: 62px;
+    font-size: 34px;
+}
+
+::placeholder {
+    font-size: 34px;
+    font-family: 'Amatic SC';
+}
+
+button {
+    width: 134px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Dancing Script';
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.footerText {
+    font-size: 25px;
+    font-family: 'Roboto';
+    line-height: 29px;
+    color: #747474;
+}

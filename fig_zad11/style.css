@@ -1,4 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+    padding-top: 43px;
+    padding-left: 85px;
+    padding-right: 82px;
+}
+
+.headerMenuWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.btnSignUp {
+    width: 86px;
+    height: 26px;
+    color:coral ;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.imageSection {
+    background-image: url('img/Component\ 1.png');
+    /* background-repeat:no-repeat; */
+    /* background-size:contain; */
+    /* background-position:center; */
+    display: flex;
+    align-items: center;
+    /* width: 1440px; */
+    height: 830px;
+    padding-left: 83px;
+}
+
+.textWrapper {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.welcomeToGates {
+    font-size: 85px;
+    line-height: 95px;
+    color: #FFFFFF;
+    line-height: 95px;
+}
+
+.smallText {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #FAFAFA;
+}
+
+.image1 {
+    width: 406px;
+    height: 46px;
+}
+
+.newTrendy span {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #313131;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.picture2{
+    background-image: url('img/picture2.png');
+}
+
+@media  (max-width: 600px) and (min-width: 300px)
+{
+    .welcomeToGates p
+    {
+        font-size: 20px;
+    }
+
+    .smallText p 
+    {
+        font-size: 5px;
+    }
+
+    .image1
+    {
+        width: 50%;
+        height: 50%;
+    }
+
+    .headerMenuWrapper
+    {
+        flex-wrap: wrap;
+    }
+
+    
 }
