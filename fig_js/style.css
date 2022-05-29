@@ -9,6 +9,29 @@
     background: #F2F2F2;
 }
 
+.articleTitle {
+    margin: 20px 50px;
+    border: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Dancing Script';
+}
+
+.active {
+    color: red;
+}
+
+.articleText {
+    display: none;
+}
+
+.activeArticle {
+    display: flex;
+    
+}
+
 .menuList {
     display: flex;
 }
