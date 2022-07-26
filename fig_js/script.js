@@ -6,9 +6,9 @@ let articlesLinks;
 
 function articleTitle() {
     articlesLinks = document.querySelectorAll('.articleTitle');
-   console.log('articlesLinks')
-    for (let articleLink of articlesLinks) {
-        articleLink.addEventListener('click',handleTitleClick);
+    console.log(articlesLinks)
+      for (let articleLink of articlesLinks) {
+          articleLink.addEventListener('click',handleTitleClick);
     }
 }
 
