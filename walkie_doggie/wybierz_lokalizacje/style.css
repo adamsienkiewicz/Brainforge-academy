@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    height: 5985px;
+}
+
+.headSection {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    background-image: url(grafika/backGround.svg);
+    width: 1440px;
+    height: 790px;
+}
+
+.logoWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logoPicture {
+    width: 1440px;
+    height: 59px;
+    margin-left: 122px;
+    margin-top: 20px;
+}
+
+#logoText {
+    width: 144px;
+    height: 48px;
+    margin-left: 6px;
+    margin-top: 22px;
+}
+
+.menuWrapper {
+    display: flex;
+    margin-top: 39px;
+}
+
+#button1 {
+    width: 115px;
+    height: 20px;
+    font-size: 14px;
+    margin-left: 243px;
+    margin-right: 35px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+}
+
+#button2 {
+    width: 120px;
+    height: 20px;
+    font-size: 14px;
+    margin-right: 35px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+}
+
+#button3 {
+    width: 105px;
+    height: 20px;
+    font-size: 14px;
+    margin-right: 35px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+}
+
+#button4 {
+    width: 156px;
+    height: 20px;
+    font-size: 14px;
+    margin-right: 18px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+}
+
+#line1 {
+    height: 28px;
+    width: 0px;
+    margin-top: -3px;
+    border: 1px solid #FFFFFF;
+}
+
+#button5 {
+    width: 108px;
+    height: 20px;
+    margin-right: 121px;
+    margin-left: 18px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+}

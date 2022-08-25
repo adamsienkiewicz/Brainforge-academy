@@ -1,7 +1,8 @@
 const todoForm = document.querySelector('#todo-form');
 const todoList = document.querySelector('.todo-list');
-let todos = [];
-
+let todos = localStorage.getItem('todos');
+todos = JSON.parse(todos)
+updateTodoList()
 todoForm.addEventListener('submit', addTodo);
 
 function addTodo(e) {
@@ -26,6 +27,8 @@ function getRandomId() {
 }
 
 function updateTodoList() {
+
+  localStorage.setItem('todos', JSON.stringify(todos));
   const content = todos.map((todo) => {
     console.log("todo", todo)
     return `
