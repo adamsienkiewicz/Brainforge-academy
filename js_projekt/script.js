@@ -5,6 +5,7 @@ async function getResponse() {
     const myJson = JSON.stringify({
         "title": text.value,
         "body": bodyText.value,
+        "postArea": idNumber.value 
       },)
     
 	const response = await fetch(
@@ -21,34 +22,53 @@ const text = document.getElementById('title')
 
 const bodyText = document.getElementById('body')
 
+const idNumber = document.getElementById("postArea")
 
-document.getElementById("send").addEventListener("click", function(e) {
+
+document.getElementById("send", "display"), document.getElementById("display").addEventListener("click", function(e) {
     e.preventDefault();
    
     // alert("Hello World!");
     if (title.value.length >= 3) {
-        alert("DOBRA ROBOTA")
+        alert("DOBRA ROBOTA!")
         
     } else {
         
-        alert("Przyjacielu musisz coś do nas napisać!!!");
+        alert("Przyjacielu musisz tu coś napisać!!!");
     }
-    form.reset();
+    
     getResponse()
-    console.log(text.value, bodyText.value)
+    console.log(text.value, bodyText.value, idNumber.value)
+
+    text.value = '';
+    bodyText.value = '';
+
+    document.getElementById("postArea").innerHTML = idNumber
   })
 
-//   const form = document.getElementById('create-post-form');
+ 
 
-//   form.addEventListener('submit', function handleSubmit(event) {
-//     event.preventDefault();
+
+
+
+
+
+
+
+
+// fetch('https://jsonplaceholder.typicode.com/posts/:id', {
+//   method: 'POST',
+//   body: JSON.stringify({
+//     title: 'foo',
+//     body: 'bar',
+//     userId: 1,
+//   }),
+//   headers: {
+//     'Content-type': 'application/json; charset=UTF-8',
+//   },
+// })
+//   .then((response) => response.json())
+//   .then((json) => console.log(json));
+
+
   
-//     // 👇️ Send data to server here
-
-//     // 👇️ Reset form here
-//     form.reset();
-// //   });
-  
-
-  
-

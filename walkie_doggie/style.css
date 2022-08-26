@@ -135,7 +135,7 @@ body {
 .testButton 
     
 
-/* #testButton {
+#testButton {
     width: 223px;
     height: 44px;
     border: none;
@@ -154,7 +154,7 @@ body {
     font-size: 16px;
     line-height: 8px;
     color: #FFFFFF;
-} */
+}
 
 #dogPicture{
     margin-left: -694px;
