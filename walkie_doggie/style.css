@@ -1,15 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 .container{
     /* display: flex; */
     justify-content: space-around;
-    width: 1440px;
+    /* width: 1440px; */
     /* height: 760px; */
-    background-color: #00A5C5;;
+    background-color: #00A5C5;
 }
 
 .header{
@@ -207,7 +206,7 @@
 .blockColor{
     position: absolute;
     margin-top: -75px;
-    width: 1440px;
+    width: 100%;
     height: 210px;
     background-color: #007D96;
     border-radius: 100px 0px 100px 0px;
@@ -226,8 +225,8 @@
 backdrop-filter: blur(30px)
 }
 .textIcon{
-    background-color: #E5E5E5;;
-    width: 1440px;
+    /* background-color: #E5E5E5;; */
+    /* width: 1440px; */
 }
 
 .iconArea {
@@ -327,7 +326,7 @@ span{
 
 .paw{
     position: absolute;
-    right: -20px;
+    right: 0px;
 }
 
 .findOut{
@@ -462,11 +461,173 @@ color: #000000;
 .comment1 {
     position: absolute;
     margin-top: 469px;
-    margin-left: -90px;
+    margin-left: -145px;
+    width: 346px;
+    height: 131px;
+    background-color: #004554;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 #dog6{
     position: absolute;
     margin-left: 173px;
     margin-top: 390px;
+}
+
+
+.comment1 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 38px;
+    padding-top: 33px;
+}
+
+.comment1::before{
+    position: absolute;
+    content: '';
+    background-color: #004554;
+    width: 68px;
+    height: 53px;
+    margin-left: 278px;
+    margin-top: 131px;
+}
+ 
+.comment1::after{
+    /* margin-left: 139px; */
+    position: absolute;
+    content: '';
+    background-color: white;
+    height: 100px;
+    border-radius: 40px;
+    width: 100px;
+    /* margin-right: 3px; */
+    margin-top: 35px;
+    margin-left: 246px;
+}
+
+.joinText{
+    margin-left: 122px;
+    margin-top: 91px;
+}
+
+.joinText p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.mailContact{
+    margin-left: 122px;
+    margin-top: 15px;
+}
+
+.mailContact p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.inputSection{
+    display: flex;
+    margin-left: 122px;
+    margin-top: 43px;
+}
+
+label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 38px;
+    /* identical to box height, or 271% */
+    color: #000000;
+
+}
+input[type=text]{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* position: absolute; */
+    width: 345px;
+    height: 48px;
+}
+
+#text{
+    width: 595px;
+    height: 252px;
+
+}
+
+.sendButton{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    border: none;
+    width: 223px;
+    height: 43px;
+    background: linear-gradient(135deg, #FF6976 -12.5%, #FF7979 43.02%, #FDBEAE 113.5%);
+    box-shadow: 2px 4px 8px rgba(248, 94, 94, 0.25);
+    border-radius: 30px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.bottomPicture{
+    margin-top: 41px;
+}
+
+#paw1{
+    position: absolute;
+    right: 0px;
+    /* transform: rotate(-15deg); */
+    padding-top: 132px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00A5C5;
+    opacity: 100%;
+    width: 100%;
+    height: 502px;
+    margin-top: 72px;
+}
+
+.brainForge p{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.infoParagraph p{
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
