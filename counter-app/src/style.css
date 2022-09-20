@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+p{
+    font-size: 5rem;
+}
+
+.btnStyle{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.btn{
+    width: 8.5rem;
+    height: 3.75rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 668px) {
+    body {
+      background-color: lightblue;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+  }
