@@ -5,6 +5,14 @@
     flex-direction: column;
 }
 
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
 h1{
     font-size: 6rem;
 }
