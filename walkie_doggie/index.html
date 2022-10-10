@@ -18,12 +18,12 @@
                 <div><span id="wD">WalkieDoggie</span></div>      
             </div>    
             <div class="navBar">
-                <div class="btnStyle1"><button class="btn1">Poznaj aplikację</button></div>
-                <div class="btnStyle1"><button class="btn2">Dołącz do testów</button></div>
-                <div class="btnStyle1"><button class="btn3">Pomagali nam</button></div>
-                <div class="btnStyle"><button class="btn4">Formularz kontaktowy</button></div>
+                <div class="href"><a href="#textIcon">Poznaj aplikacje</a></div> 
+                <div class="href"><a href="#testButton">Dołącz do testów</a></div>
+                <div class="href"><a href="">Pomagali nam</a></div>
+                <div class="href"><a href="">Formularz kontaktowy</a></div>
                 <div class="line"></div>
-                <div class="btnStyle"><button class="btn5">Strefa partnera</button></div>
+                <div><a href="">Strefa partnera</a></div>
             </div> 
         </div>
             <div class="mainSectionWrapper">
@@ -38,19 +38,17 @@
                         <button class="testButton">Dołącz do testów</button>
                     </div>
                 </div>
-                <div class="rightWave"></div>
                 <div class="logoSmallText">
-                    <div class="doggy">
-                        <img id="doggy" src="grafika/bigDog.svg"/>
-                    </div>
+                <img id="doggy" src="grafika/bigDog.svg"/>
                 </div>
             </div>
+            <div class="rightWave"></div>
             <div class="leftWave"></div>
             <div class="blockColor"></div>
             <div>
         </div>
     </div> 
-    <div class="textIcon">
+    <div class="textIcon" id="textIcon">
         <div class="iconArea">
             <div class="text">
                 <img src="grafika/map.svg">
@@ -89,7 +87,7 @@
             WalkieDoggie i podzielić się z nami swoją opinią. Wpłyń na to, żeby <br> nasza platforma była intuicyjna w obsłudze i zaspokajała potrzeby <br> pupili i ich właścicieli.</span>
         </div>
         <div class="testBnt">
-            <button class="testButton">Dołącz do testów</button>
+            <button class="testButton" id="testButton">Dołącz do testów</button>
         </div>
     </div>
     <div class="dogsPlaces">
@@ -165,7 +163,7 @@
         <img id="paw1" src="grafika/Frame.svg">
     </div>     
     <div class="inputSection">
-        <form action="">
+        <form action="mailto:sienkiewiczadam24@gmail.com" method="post">
             <label for="name">Imię i Nazwisko</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="email">Email</label><br>
@@ -203,7 +201,7 @@
                 </div>
                 <div class="contact">
                     <div class="contactParagraph">
-                        <button href="">Kontakt</button>
+                        <a href="">Kontakt</a>
                     </div>
                     <div class="mail">
                         <p>mail</p>

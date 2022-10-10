@@ -30,6 +30,7 @@
 .navBar{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 #wD{
@@ -45,13 +46,8 @@
     color: #F0AF15;
 }
 
-.btnStyle1{
+a{
     padding-right: 35px;
-}
-
-.btn1{
-    /* width: 115px;
-    height: 20px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -59,65 +55,11 @@
     line-height: 20px;
     border: none;
     color: #FFFFFF;
-    background-color: #00A5C5;;
+    background-color: #00A5C5;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.btn2{
-    /* width: 120px;
-    height: 20px; */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    border: none;
-    color: #FFFFFF;
-    background-color: #00A5C5;;
-    cursor: pointer;
-}
-
-.btn3{
-    /* width: 105px;
-    height: 20px; */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    border: none;
-    color: #FFFFFF;
-    background-color: #00A5C5;;
-    cursor: pointer;
-}
-
-.btn4{
-    /* width: 156px;
-    height: 20px; */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    border: none;
-    color: #FFFFFF;
-    background-color: #00A5C5;;
-    cursor: pointer;
-}
-
-.btn5{
-    /* width: 108px;
-    height: 20px; */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    border: none;
-    color: #FFFFFF;
-    background-color: #00A5C5;;
-    cursor: pointer;
-}
 
 .line{
     width: 28px;
@@ -131,8 +73,7 @@
     justify-content: space-between;
     padding-left: 122px;
     align-items: center;
-    /* padding-top: 90px; */
-    margin-top: -90px;
+    margin-top: 30px;
 }
 
 #logoText{
@@ -157,8 +98,8 @@
     color: #FFFFFF;
 }
 
-.doggy{
-    margin-top: 130px;
+#doggy{
+    margin-top: 35px;
 }
 
 .testBnt{
@@ -186,39 +127,38 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.rightWave{
+    right: 0px;
+    position: absolute;
+}
+
 .rightWave::before{
     content: '';
     position: absolute;
-    background-color: #FF6976;
-    width: 50px;
-    height: 50px;
+    background-color: #007D96;;
+    width: 60px;
+    height: 120px;
     right: 0px;
-    bottom: 20px;
+    bottom: 70px;
 }
 
 .rightWave::after{
     content: '';
     position: absolute;
+    width: 93px;
+    height: 106px;
+    background-color: #dfaf40;
+    right: 0px;
+    bottom: 90px;
+    border-radius: 0px 0px 50px;
+    /* background: linear-gradient(135deg, #FF6976 -12.5%, #F1B016 113.5%); */
 }
 
-/* .blockColor::before{
-    content: '';
-    position: absolute;
-    width: 200px;
-    height: 176px;
-    right: 0px;
-    top: -120px;
-    border-radius: 0px 0px 140px / 80px 0px;
-    box-shadow: rgb(0 125 150)0px 0px 0px 0px;
-    /* box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05); */
-/* backdrop-filter: blur(30px) */
-/* } */ 
-
 #doggy{
-    /* position: absolute; */
     margin-right: 0px;
-    width: 525px;
-    height: 525px;
+    /* width: 525px; */
+    /* height: 525px; */
 }
 
 .leftWave::before{
@@ -261,10 +201,10 @@
 
 
 
-.textIcon{
+/* /* .textIcon{
     /* background-color: #E5E5E5;; */
     /* width: 1440px; */
-}
+/* }  */
 
 .iconArea {
     display: flex;
@@ -751,3 +691,4 @@ input[type=text]{
     line-height: 97%;
     color: #FFFFFF;
 }
+
